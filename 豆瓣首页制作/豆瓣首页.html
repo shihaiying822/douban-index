@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>项目实战-豆瓣首页</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="dbindex.css ">
+</head>
+<body>
+    <!--头部区域-->
+    <header class="header">
+        <div class="container clearfix">
+            <div class="logo left">
+                <h1>
+                    <a href="">
+                        <span>豆瓣</span>
+                    </a>
+                </h1>
+            </div>
+            <div class="search left">
+                <form>
+                    <input type="text" class="txt" placeholder="书籍、电影、音乐、小组、成员">
+                    <button>
+                        <i class="iconfont iconsousuo" ></i><!--字体图标-->
+                    </button>
+                </form>
+            </div>
+            <div class="menu right clearfix">
+                <a href="" class="menu-read"></a>
+                <a href="" class="menu-movie"></a>
+                <a href="" class="menu-music"></a>
+                <a href="" class="menu-group"></a>
+                <a href="" class="menu-city"></a>
+                <a href="" class="menu-fm"></a>
+                <a href="" class="menu-time"></a>
+                <a href="" class="menu-doupin"></a>
+            </div>
+        </div>
+    </header>
+
+    <!--横幅区域-->
+    <div class="banner">
+        <div class="container clearfix">
+            <iframe class="right loginarea" src="loginframe.html" frameborder="0"></iframe>
+            <div class="slogan right">
+                <h1 class="title" >
+                    豆瓣
+                    <span>6.0</span>
+                </h1>
+                <div class="download">
+                    <button class="btn" >下载豆瓣 App</button>
+                    <div class="qrcode" >
+                        <img src="img/icon-qr-smell.png " alt="">
+                        <div class="qrcode-img hidden">
+                            <img src="img/qrlogin_code.png" alt="">
+                            <p>
+                                iOS / Android 扫码直接下载
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--主区域样式-->
+    <div>
+        <!--热点-->
+        <div class="section">
+            <div class="container clearfix">
+                <!--右边栏-->
+                <div class="aside-right">
+                    <!--广告-->
+                    <div class="adv">
+                        <a href="">
+                            <img src="img/adv1.jpg" alt="广告图片">
+                        </a>
+                    </div>
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热门话题</h2>
+                        <span class="link">
+                            <a href="">去话题广场</a>
+                        </span>
+                    </div>
+                    <!--列表-->
+                    <ul class="hot-list">
+                        <li>
+                            <div class="title">
+                                <a href="">新型肺炎预防指南</a>
+                            </div>
+                            <div class="description">
+                                <span>5425.8万次浏览</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <a href="" class="adv-tag">你和伴侣玩过的“分手游戏”</a>
+                            </div>
+                            <div class="description">
+                                <span>6.0万次浏览</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <a href="">和新冠肺炎疫情有关的记忆</a>
+                            </div>
+                            <div class="description">
+                                <span>1735.9万次浏览</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <a href="">宅家消费实录</a>
+                            </div>
+                            <div class="description">
+                                <span>新话题</span>
+                                <span>1.3万次浏览</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <a href="">疫情对你的行业或工作有什么影响</a>
+                            </div>
+                            <div class="description">
+                                <span>286.7万次浏览</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="title">
+                                <a href="">新冠肺炎期间，你们小区办出入证了吗？</a>
+                            </div>
+                            <div class="description">
+                                <span>38.2万次浏览</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热点内容</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                        </span>
+                    </div>
+                    <!--热点主区域-->
+                    <div class="hot-main clearfix">
+                        <!--左侧内容-->
+                        <div class="left">
+                            <ul class="item-list">
+                                <li>
+                                    <div class="img">
+                                        <a href="">
+                                            <img src="img/color1.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="word">
+                                        <a href="">大部分是自己的作业相册</a>
+                                        <span>20张照片</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="img">
+                                        <a href="">
+                                            <img src="img/color2.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="word">
+                                        <a href="">新涂鸦</a>
+                                        <span>59张照片</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="img">
+                                        <a href="">
+                                            <img src="img/color3.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="word">
+                                        <a href="">废墟|废弃剧院</a>
+                                        <span>39张照片</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="img">
+                                        <a href="">
+                                            <img src="img/color4.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="word">
+                                        <a href="">废墟 | 迷失宫殿</a>
+                                        <span>55张照片</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--右侧内容-->
+                        <div class="right">
+                            <ul>
+                                <li>
+                                    <a href="">住在厕所里的“沪漂族”</a>
+                                    <div class="title">越村的日记</div>
+                                    <div class="description">
+                                        本文原载于【X博士】 “法租界”，上海的中心城区，最富小资情调的打卡圣地，路边...
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        桜台コートビレジ(Sakuradai Court Village)/ 内井昭藏_山地集合住宅的炒鸡佳作
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        我爸的心是一座巨大的修车厂
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        为什么中国的电影都是有字幕的，而几乎世界各地都是没有的？
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        去婆婆家过年，一场无法逃避的乡村修行
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">上海物候记录24-岑卜村：你见过上海的霜花吗？
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        30岁了｜一晃而过的前三分之一人生
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">记录：陪奶奶读旧书(●'◡'●)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        混乱又鲜活：年末十八线城市的小商品批发市场
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        记忆中的象牙塔
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--豆瓣时间-->
+        <div class="section">
+            <div class="container clearfix">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <h2 class="title">
+                        <a href="" class="dark-color">豆瓣时间</a>
+                    </h2>
+                </div>
+                <!--主区域-->
+                <div class="main">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热门专门</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                        </span>
+                    </div>
+                    <!--主要内容-->
+                    <div class="time-main">
+                        <ul class="item-list">
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">电影产业破壁课——13小时重塑电影世界观</a>
+                                    <span>视频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">不准无聊！精品大师课免费放送</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">懂得这些再去穿越——古代天文学里的星空密码</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">收获一生之书——马家辉解读影响人生的24部文学经典</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">我同世界交流的方式——顶级纪录片导演创作分享课</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">掌控人生剧本——12堂改变命运的思维课</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">如何读懂美——赤木明登工艺课堂</a>
+                                    <span>视频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner8.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">李安解读立体电影</a>
+                                    <span>视频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">杨超教你用导演思维看电影——十大专题破解电影密码</a>
+                                    <span>视频专栏</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/mainner10.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="words">
+                                    <a href="">好听的声音会跳舞——季冠霖的声音形象课</a>
+                                    <span>音频专栏</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--视频-->
+        <div class="section">
+            <div class="container clearfix">
+                <!--左区域-->
+                <div class="aside-left">
+                    <div class="title">
+                        <h2>
+                            <a href="" class="dark-color">视频</a>
+                        </h2>
+                    </div>
+                </div>
+
+                <!--主区域-->
+                <div class="main video-main">
+                    <div class="section-title" >
+                        <a href="">
+                            <h2 class="title">瓣嘴</h2>
+                        </a>
+                    </div>
+
+                    <ul class="item-list">
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="section-title" >
+                        <a href="">
+                            <h2 class="title">观影会客厅</h2>
+                        </a>
+                    </div>
+
+                    <ul class="item-list">
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/clear1.webp " alt="">
+                                </div>
+                            </a>
+                            <div class="words">
+                                <a href="">在美好的景区进行飞奔快跑</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--电影-->
+        <div class="section">
+            <div class="container clearfix movie-area">
+                <!--左边栏-->
+                <div class="aside-left">
+                        <!--标题-->
+                        <div class="title">
+                            <h2>
+                                <a href="">电影</a>
+                            </h2>
+                        </div>
+                        <!--左边菜单-->
+                        <nav class="left-menu">
+                            <ul>
+                                <li><a href="">影讯&购票</a></li>
+                                <li><a href="" class="new">选电影</a></li>
+                                <li><a href="">电视剧</a></li>
+                                <li><a href="">排行榜</a></li>
+                                <li><a href="">分类</a></li>
+                                <li><a href="">影评</a></li>
+                                <li><a href="">预告片</a></li>
+                                <li><a href="">问答</a></li>
+                            </ul>
+                        </nav>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right">
+                    <div class="section-title">
+                         <h2 class="title">影片分类</h2>
+                         <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="right-menu-list clearfix">
+                        <li><a href="">爱情</a></li>
+                        <li><a href="">剧情</a></li>
+                        <li><a href="">喜剧</a></li>
+                        <li><a href="">动画</a></li>
+                        <li><a href="">科幻</a></li>
+                        <li><a href="">经典</a></li>
+                        <li><a href="">动作</a></li>
+                        <li><a href="">悬疑</a></li>
+                        <li><a href="">犯罪</a></li>
+                        <li><a href="">青春</a></li>
+                        <li><a href="">搞笑</a></li>
+                        <li><a href="">文艺</a></li>
+                        <li><a href="">惊悚</a></li>
+                        <li><a href="">励志</a></li>
+                        <li><a href="">纪录片</a></li>
+                        <li><a href="">幽默</a></li>
+                        <li><a href="">战争</a></li>
+                        <li><a href="">恐怖</a></li>
+                        <li><a href="">美国</a></li>
+                        <li><a href="">日本</a></li>
+                    </ul>
+
+                    <div class="section-title">
+                        <h2 class="title">近期热门</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="order-movie-list">
+                        <li><a href="">1917</a></li>
+                        <li><a href="">寄生虫</a></li>
+                        <li><a href="">小妇人</a></li>
+                        <li><a href="">囧妈</a></li>
+                        <li><a href="">乔乔的异想世界</a></li>
+                        <li><a href="">小丑</a></li>
+                        <li><a href="">阳光普照</a></li>
+                        <li><a href="">半个喜剧</a></li>
+                        <li><a href="">爱尔兰人</a></li>
+                        <li><a href="">婚姻故事</a></li>
+                    </ul>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <div class="section-title">
+                        <h2 class="title">正在热映</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <div>
+                        <ul class="item-list">
+                            <li>
+                                <!--图片-->
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie1.webp" alt="">
+                                    </a>
+                                </div>
+                                <!--文字-->
+                                <div class="words">
+                                    <a href="">叶问4：完结篇 葉問4 (2019)</a>
+                                </div>
+                                <!--评分-->
+                                <div class="star">
+                                    <span class="star-bg star35"></span>
+                                    <span class="number">7.1</span>
+                                </div>
+                                <!--选座-->
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie2.webp" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="words">
+                                    <a href="">我在时间尽头等你 (2020)</a>
+                                </div>
+
+                                <div class="star">
+                                    <span class="star-bg star30"></span>
+                                    <span class="number">6.9</span>
+                                </div>
+
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie3.webp" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="words">
+                                    <a href="">对联神童解大绅 (2020)</a>
+                                </div>
+
+                                <div class="star">
+                                    <span class="star-bg star40"></span>
+                                    <span class="number">7.6</span>
+                                </div>
+
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <!--图片-->
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie1.webp" alt="">
+                                    </a>
+                                </div>
+                                <!--文字-->
+                                <div class="words">
+                                    <a href="">叶问4：完结篇 葉問4 (2019)</a>
+                                </div>
+                                <!--评分-->
+                                <div class="star">
+                                    <span class="star-bg star35"></span>
+                                    <span class="number">7.1</span>
+                                </div>
+                                <!--选座-->
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie2.webp" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="words">
+                                    <a href="">我在时间尽头等你 (2020)</a>
+                                </div>
+
+                                <div class="star">
+                                    <span class="star-bg star30"></span>
+                                    <span class="number">6.9</span>
+                                </div>
+
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie3.webp" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="words">
+                                    <a href="">对联神童解大绅 (2020)</a>
+                                </div>
+
+                                <div class="star">
+                                    <span class="star-bg star40"></span>
+                                    <span class="number">7.6</span>
+                                </div>
+
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <!--图片-->
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie1.webp" alt="">
+                                    </a>
+                                </div>
+                                <!--文字-->
+                                <div class="words">
+                                    <a href="">叶问4：完结篇 葉問4 (2019)</a>
+                                </div>
+                                <!--评分-->
+                                <div class="star">
+                                    <span class="star-bg star35"></span>
+                                    <span class="number">7.1</span>
+                                </div>
+                                <!--选座-->
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img">
+                                    <a href="">
+                                        <img src="img/movie2.webp" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="words">
+                                    <a href="">我在时间尽头等你 (2020)</a>
+                                </div>
+
+                                <div class="star">
+                                    <span class="star-bg star30"></span>
+                                    <span class="number">6.9</span>
+                                </div>
+
+                                <div class="func">
+                                    <a href="" class="block-link">选座购票</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--小组-->
+        <div class="section">
+            <div class="container group-area clearfix">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <!--标题-->
+                    <div class="title">
+                        <h2>
+                            <a href="">小组</a>
+                        </h2>
+                    </div>
+                    <!--左边菜单-->
+                    <nav class="left-menu">
+                        <ul>
+                            <li><a href="">精选</a></li>
+                            <li><a href="">文化</a></li>
+                            <li><a href="">行摄</a></li>
+                            <li><a href="">娱乐</a></li>
+                            <li><a href="">时尚</a></li>
+                            <li><a href="">生活</a></li>
+                            <li><a href="">科技</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">小组分类</h2>
+                    </div>
+
+                    <!--兴趣-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">兴趣</a>
+                        </div>
+                        <!--兴趣内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">旅行</a></li>
+                            <li><a href="">摄影</a></li>
+                            <li><a href="">影视</a></li>
+                            <li><a href="">音乐</a></li>
+                            <li><a href="">文学</a></li>
+                            <li><a href="">游戏</a></li>
+                            <li><a href="">动漫</a></li>
+                            <li><a href="">运动</a></li>
+                            <li><a href="">戏曲</a></li>
+                            <li><a href="">桌游</a></li>
+                            <li><a href="">怪癖</a></li>
+                        </ul>
+                    </div>
+                    <!--生活-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">生活</a>
+                        </div>
+                        <!--生活内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">健康</a></li>
+                            <li><a href="">美食</a></li>
+                            <li><a href="">宠物</a></li>
+                            <li><a href="">美容</a></li>
+                            <li><a href="">化妆</a></li>
+                            <li><a href="">护肤</a></li>
+                            <li><a href="">服饰</a></li>
+                            <li><a href="">公益</a></li>
+                            <li><a href="">家庭</a></li>
+                            <li><a href="">育儿</a></li>
+                            <li><a href="">汽车</a></li>
+                        </ul>
+                    </div>
+                    <!--购物-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">购物</a>
+                        </div>
+                        <!--购物内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">淘宝</a></li>
+                            <li><a href="">二手</a></li>
+                            <li><a href="">团购</a></li>
+                            <li><a href="">数码</a></li>
+                            <li><a href="">品牌</a></li>
+                            <li><a href="">文具</a></li>
+                        </ul>
+                    </div>
+                    <!--社会-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">社会</a>
+                        </div>
+                        <!--社会内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">求职</a></li>
+                            <li><a href="">租房</a></li>
+                            <li><a href="">励志</a></li>
+                            <li><a href="">留学</a></li>
+                            <li><a href="">出国</a></li>
+                            <li><a href="">理财</a></li>
+                            <li><a href="">传媒</a></li>
+                            <li><a href="">创业</a></li>
+                            <li><a href="">考试</a></li>
+                        </ul>
+                    </div>
+                    <!--艺术-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">艺术</a>
+                        </div>
+                        <!--艺术内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">设计</a></li>
+                            <li><a href="">手工</a></li>
+                            <li><a href="">展览</a></li>
+                            <li><a href="">曲艺</a></li>
+                            <li><a href="">舞蹈</a></li>
+                            <li><a href="">雕塑</a></li>
+                            <li><a href="">纹身</a></li>
+                        </ul>
+                    </div>
+                    <!--学术-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">学术</a>
+                        </div>
+                        <!--学术内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">人文</a></li>
+                            <li><a href="">社科</a></li>
+                            <li><a href="">自然</a></li>
+                            <li><a href="">建筑</a></li>
+                            <li><a href="">国学</a></li>
+                            <li><a href="">语言</a></li>
+                            <li><a href="">宗教</a></li>
+                            <li><a href="">哲学</a></li>
+                            <li><a href="">软件</a></li>
+                            <li><a href="">硬件</a></li>
+                            <li><a href="">互联网</a></li>
+                        </ul>
+                    </div>
+                    <!--情感-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">情感</a>
+                        </div>
+                        <!--情感内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">恋爱</a></li>
+                            <li><a href="">心情</a></li>
+                            <li><a href="">心理学</a></li>
+                            <li><a href="">星座</a></li>
+                            <li><a href="">塔罗</a></li>
+                            <li><a href="">LES</a></li>
+                            <li><a href="">GAY</a></li>
+                        </ul>
+                    </div>
+                    <!--闲聊-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">闲聊</a>
+                        </div>
+                        <!--闲聊内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">吐槽</a></li>
+                            <li><a href="">笑话</a></li>
+                            <li><a href="">直播</a></li>
+                            <li><a href="">八卦</a></li>
+                            <li><a href="">发泄</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热门小组</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+                    <!--主要的内容-->
+                    <ul class="item-list " >
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu1.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">我爱三毛</a>
+                                <span>47832 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu2.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">沙发客</a>
+                                <span>23622 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu3.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">刘慈欣</a>
+                                <span>30227 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu4.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">西双版纳</a>
+                                <span>11540 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu5.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">记事本圆梦小组</a>
+                                <span>116854 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu6.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">搭讪学</a>
+                                <span>94182 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu7.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">这辈子一定要做几件疯狂的事</a>
+                                <span>92934 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu8.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">自己给自己剪头发</a>
+                                <span>35173 个成员</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/xiaozu9.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">我们就是要做衣服给自己穿</a>
+                                <span>3727 个成员</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--读书-->
+        <div class="section">
+            <div class="container clearfix book-area">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <!--标题-->
+                    <div class="title">
+                        <h2>
+                            <a href="">读书</a>
+                        </h2>
+                    </div>
+                    <!--左边菜单-->
+                    <nav class="left-menu">
+                        <ul>
+                            <li><a href="" >分类浏览</a></li>
+                            <li><a href="" class="new dark-color">阅读</a></li>
+                            <li><a href="" >作者</a></li>
+                            <li><a href="" >书评</a></li>
+                            <li><a href="" >购书单</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="menu-adv">
+                        <a href="">
+                            <span class="app-icon-1"></span>
+                        </a>
+                        <a href="">豆瓣阅读</a>
+                    </div>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right" >
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热门标签</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <!--文学-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[文学]</span></li>
+                            <li><a href="">小说</a></li>
+                            <li><a href="">随笔</a></li>
+                            <li><a href="">日本文学</a></li>
+                            <li><a href="">散文</a></li>
+                            <li><a href="">诗歌</a></li>
+                            <li><a href="">童话</a></li>
+                            <li><a href="">名著</a></li>
+                            <li><a href="">港台</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+
+                    <!--流行-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[流行]</span></li>
+                            <li><a href="">漫画</a></li>
+                            <li><a href="">推理</a></li>
+                            <li><a href="">绘本</a></li>
+                            <li><a href="">青春</a></li>
+                            <li><a href="">科幻</a></li>
+                            <li><a href="">言情</a></li>
+                            <li><a href="">奇幻</a></li>
+                            <li><a href="">武侠</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+
+                    <!--文化-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[文化]</span></li>
+                            <li><a href="">历史</a></li>
+                            <li><a href="">哲学</a></li>
+                            <li><a href="">传记</a></li>
+                            <li><a href="">设计</a></li>
+                            <li><a href="">建筑</a></li>
+                            <li><a href="">电影</a></li>
+                            <li><a href="">回忆录</a></li>
+                            <li><a href="">音乐</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+
+                    <!--生活-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[生活]</span></li>
+                            <li><a href="">旅行</a></li>
+                            <li><a href="">励志</a></li>
+                            <li><a href="">教育</a></li>
+                            <li><a href="">职场</a></li>
+                            <li><a href="">美食</a></li>
+                            <li><a href="">灵修</a></li>
+                            <li><a href="">健康</a></li>
+                            <li><a href="">家居</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+
+                    <!--经管-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[经管]</span></li>
+                            <li><a href="">经济学</a></li>
+                            <li><a href="">管理</a></li>
+                            <li><a href="">商业</a></li>
+                            <li><a href="">金融</a></li>
+                            <li><a href="">营销</a></li>
+                            <li><a href="">理财</a></li>
+                            <li><a href="">股票</a></li>
+                            <li><a href="">企业史</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+
+                    <!--科技-->
+                    <div class="group">
+                        <ul class="right-menu-list clearfix">
+                            <li><span>[科技]</span></li>
+                            <li><a href="">科普</a></li>
+                            <li><a href="">互联网</a></li>
+                            <li><a href="">编程</a></li>
+                            <li><a href="">交互设计</a></li>
+                            <li><a href="">算法</a></li>
+                            <li><a href="">通信</a></li>
+                            <li><a href="">神经网络</a></li>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">新书速递</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <!--内容区-->
+                    <ul class="item-list">
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">原创数字作品</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="item-list">
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/read1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">
+                                    仁慈的关系
+                                </a>
+                                <span>
+                                 [匈牙利]拉斯洛
+                            </span>
+                            </div>
+
+                            <div class="func">
+                                <a href="" class="block-link">
+                                    免费试读
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--音乐-->
+        <div class="section">
+            <div class="container clearfix music-area">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <div class="aside-left">
+                        <!--标题-->
+                        <div class="title">
+                            <h2>
+                                <a href="">音乐</a>
+                            </h2>
+                        </div>
+                        <!--左边菜单-->
+                        <nav class="left-menu">
+                            <ul>
+                                <li><a href="" >音乐人</a></li>
+                                <li><a href="" >潮潮豆瓣音乐周</a></li>
+                                <li><a href="" >金羊毛计划</a></li>
+                                <li><a href="" >专题</a></li>
+                                <li><a href="" >排行榜</a></li>
+                                <li><a href="" >分类浏览</a></li>
+                                <li><a href="" >乐评</a></li>
+                                <li><a href="" >豆瓣FM</a></li>
+                                <li><a href="" >歌单</a></li>
+                                <li><a href="" >阿比鹿音乐榜</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="menu-adv">
+                            <a href="">
+                                <span class="app-icon-2"></span>
+                            </a>
+                            <a href="">豆瓣FM</a>
+                        </div>
+
+                        <div class="menu-adv">
+                            <a href="">
+                                <span class="app-icon-3"></span>
+                            </a>
+                            <a href="">豆瓣音乐人</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">本周流行音乐人</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="music-player-list">
+                        <li class="clearfix">
+                            <span class="number left">1.</span>
+                            <div class="player right">
+                                <a href="">
+                                     <div class="img left iconbofang iconfont">
+                                         <img src="img/player1.jpg" alt="">
+                                     </div>
+                                </a>
+                                <div class="words left">
+                                    <a href="">大猴仔</a>
+                                    <span>流派: 流行 Pop</span>
+                                    <span>76人关注</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <span class="number left">2.</span>
+                            <div class="player right">
+                                <a href="">
+                                    <div class="img left iconbofang iconfont">
+                                        <img src="img/player2.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="words left">
+                                    <a href="">跳格子</a>
+                                    <span>流派: 民谣 Folk</span>
+                                    <span>1810人关注</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <span class="number left">3.</span>
+                            <div class="player right">
+                                <a href="">
+                                    <div class="img left iconbofang iconfont">
+                                        <img src="img/player3.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="words left">
+                                    <a href="">施文</a>
+                                    <span>流派: 流行 Pop</span>
+                                    <span>103人关注</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <span class="number left">4.</span>
+                            <div class="player right">
+                                <a href="">
+                                    <div class="img left iconbofang iconfont">
+                                        <img src="img/player4.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="words left">
+                                    <a href="">三七</a>
+                                    <span>流派: 民谣 Folk</span>
+                                    <span>199人关注</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <span class="number left">5.</span>
+                            <div class="player right">
+                                <a href="">
+                                    <div class="img left iconbofang iconfont">
+                                        <img src="img/player5.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="words left">
+                                    <a href="">S.A.D.</a>
+                                    <span>流派: 电子 Electronica</span>
+                                    <span>413人关注</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <div class="section-title">
+                        <h2 class="title">豆瓣新碟榜</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="item-list">
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/music1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                1.<a href=""> The Slow Rush</a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Tame Impala</a>
+                            </div>
+
+                            <!--评分-->
+                            <div class="star">
+                                <span class="star-bg star35"></span>
+                                <span class="number">7.1</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="section-title">
+                        <h2 class="title">热门歌单</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="item-list hot-music">
+                        <li>
+                            <a href="">
+                                 <div class="img iconfont iconbofang">
+                                     <img src="img/music2.jpg " alt="">
+                                 </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img iconfont iconbofang">
+                                    <img src="img/music2.jpg " alt="">
+                                </div>
+                            </a>
+
+                            <div class="words">
+                                狗蛋成长屎
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--豆品-->
+        <div class="section">
+            <div class="container clearfix doupin-area">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <!--标题-->
+                    <div class="title">
+                        <h2>
+                            <a href="">豆品</a>
+                        </h2>
+                    </div>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">热卖活动</h2>
+                    </div>
+
+                    <!--广告-->
+                    <div class="adv">
+                        <a href="">
+                            <img src="img/adv2.jpg" alt="广告图片">
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="">我的豆瓣收藏夹里有什么</a>
+                    </div>
+                    
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">官方小组</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <div class="section-title">
+                        <h2 class="title">热卖商品</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="item-list">
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/doupin1.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words clearfix">
+                                <a href="" class="left">豆瓣冻顶乌龙茶</a>
+                                <span class="right">￥59</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/doupin2.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words clearfix">
+                                <a href="" class="left">豆瓣软面笔记本</a>
+                                <span class="right">￥39</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/doupin3.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words clearfix">
+                                <a href="" class="left">豆瓣收藏夹</a>
+                                <span class="right">￥99</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <a href="">
+                                    <img src="img/doupin3.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words clearfix">
+                                <a href="" class="left">豆瓣经典帆布包</a>
+                                <span class="right">￥149</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--同城-->
+        <div class="section">
+            <div class="container clearfix city-area">
+                <!--左边栏-->
+                <div class="aside-left">
+                    <!--标题-->
+                    <div class="title">
+                        <h2>
+                            <a href="">同城</a>
+                        </h2>
+                    </div>
+
+                    <!--左边菜单-->
+                    <nav class="left-menu">
+                        <ul>
+                            <li><a href="" >近期活动</a></li>
+                            <li><a href="" >主办方</a></li>
+                            <li><a href="" >舞台剧</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!--右边栏-->
+                <div class="aside-right">
+                    <!--标题-->
+                    <div class="section-title">
+                        <h2 class="title">活动标签</h2>
+                    </div>
+
+                    <!--音乐-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">音乐</a>
+                        </div>
+                        <!--音乐内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">小型现场</a></li>
+                            <li><a href="">音乐会</a></li>
+                            <li><a href="">演唱会</a></li>
+                            <li><a href="">音乐节</a></li>
+                        </ul>
+                    </div>
+                    <!--戏剧-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">戏剧</a>
+                        </div>
+                        <!--戏剧内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">话剧</a></li>
+                            <li><a href="">音乐剧</a></li>
+                            <li><a href="">舞剧</a></li>
+                            <li><a href="">歌剧</a></li>
+                            <li><a href="">戏曲</a></li>
+                            <li><a href="">其他</a></li>
+                        </ul>
+                    </div>
+                    <!--聚会-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">聚会</a>
+                        </div>
+                        <!--聚会内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">生活</a></li>
+                            <li><a href="">集市</a></li>
+                            <li><a href="">摄影</a></li>
+                            <li><a href="">外语</a></li>
+                            <li><a href="">桌游</a></li>
+                            <li><a href="">夜店</a></li>
+                            <li><a href="">交友</a></li>
+                            <li><a href="">美食</a></li>
+                            <li><a href="">派对</a></li>
+                        </ul>
+                    </div>
+                    <!--电影-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">电影</a>
+                        </div>
+                        <!--电影内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">主题放映</a></li>
+                            <li><a href="">影展</a></li>
+                            <li><a href="">影院活动</a></li>
+                        </ul>
+                    </div>
+                    <!--其他-->
+                    <div class="group">
+                        <div class="group-name">
+                            <a href="">其他</a>
+                        </div>
+                        <!--其他内容-->
+                        <ul class="right-menu-list clearfix">
+                            <li><a href="">讲座</a></li>
+                            <li><a href="">展览</a></li>
+                            <li><a href="">运动</a></li>
+                            <li><a href="">旅行</a></li>
+                            <li><a href="">公益</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--主区域-->
+                <div class="main">
+                    <div class="section-title">
+                        <h2 class="title">重庆 · 本周热门活动</h2>
+                        <span class="link">
+                            <a href="">更多</a>
+                         </span>
+                    </div>
+
+                    <ul class="item-list">
+                        <li class="clearfix">
+                            <div class="img left">
+                                <a href="">
+                                    <img src="img/city.jpg " alt="">
+                                </a>
+                            </div>
+                            
+                            <div class="words">
+                                <a href="">Christopher Nissen巡演</a>
+                                <span>3月14日 周六 19:30 - 21:00</span>
+                                <span>寅派动力</span>
+                                <span>4人关注</span>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="img left">
+                                <a href="">
+                                    <img src="img/city.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Christopher Nissen巡演</a>
+                                <span>3月14日 周六 19:30 - 21:00</span>
+                                <span>寅派动力</span>
+                                <span>4人关注</span>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="img left">
+                                <a href="">
+                                    <img src="img/city.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Christopher Nissen巡演</a>
+                                <span>3月14日 周六 19:30 - 21:00</span>
+                                <span>寅派动力</span>
+                                <span>4人关注</span>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="img left">
+                                <a href="">
+                                    <img src="img/city.jpg " alt="">
+                                </a>
+                            </div>
+
+                            <div class="words">
+                                <a href="">Christopher Nissen巡演</a>
+                                <span>3月14日 周六 19:30 - 21:00</span>
+                                <span>寅派动力</span>
+                                <span>4人关注</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--页脚区域-->
+    <footer class="footer">
+        <div class="container clearfix">
+            <!--左区域-->
+            <div class="left">
+                <p>© 2005－2020 douban.com, all rights reserved 北京豆网科技有限公司</p>
+                <p><a href="">京ICP证090015号</a> 京ICP备11027288号 网络视听许可证<a href="">0110418</a>号</p>
+                <p>京网文[2015]2026-368号<img src="img/biaoshi.gif" alt=""><a href="">京公网安备11010502000728</a>新出网证(京)字129号</p>
+                <p>违法和不良信息举报电话：4008353331-9</p>
+                <p><img src="img/jubao.png" alt=""><a href="">中国互联网举报中心</a>电话：12377<a href="">新出发京批字第直160029号</a></p>
+            </div>
+
+            <!--右区域-->
+            <div class="right">
+                <nav class="menu">
+                    <a href="">关于豆瓣</a>
+                    ·
+                    <a href="">在豆瓣工作</a>
+                    ·
+                    <a href="">联系我们</a>
+                    ·
+                    <a href="">法律声明</a>
+                    ·
+                    <a href="">帮助中心</a>
+                    ·
+                    <a href="">移动应用</a>
+                    ·
+                    <a href="">豆瓣广告</a>
+                </nav>
+
+                <div class="adv">
+                    <a href="">
+                        <img src="img/adv3.jpg " alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
